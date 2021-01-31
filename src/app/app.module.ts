@@ -5,19 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ShareModule } from './shared/share.module';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    ShareModule,
-    AppRoutingModule,
-    MatToolbarModule,
-    MatIconModule,
-    BrowserAnimationsModule,
-  ],
+  imports: [BrowserModule, ShareModule, BrowserAnimationsModule, HomeModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })

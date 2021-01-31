@@ -1,4 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.main-content {
+  background-color: azure;
+}
+
+.footer {
+  border: 0.1em solid #a09595;
+  background-color: #a09595;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
