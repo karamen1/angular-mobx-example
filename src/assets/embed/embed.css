@@ -1,0 +1,9 @@
+.embed-h1 {
+  color: red;
+}
+
+.embed-button {
+  border: 1px solid;
+  border-radius: 0.1em;
+  background-color: green;
+}
